@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3c78978-5b8c-4ccb-a72d-e4703de09e27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/DefaultDocumentLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/DefaultDocumentLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/DelegatingEntityResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/DelegatingEntityResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/PluggableSchemaResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/PluggableSchemaResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/XmlBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/XmlBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/util/xml/XmlValidationModeDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/util/xml/XmlValidationModeDetector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +51,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/my_item" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-beans/src/test/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jason\Documents\code\spring-code\spring-beans\src\test\resources" />
+      <recent name="C:\Users\jason\Documents\code\spring-code\spring-beans\src\test\java\mytest" />
+      <recent name="C:\Users\jason\Documents\code\spring-code\spring-beans\src\main\resources" />
+      <recent name="C:\Users\jason\Documents\code\spring-code\spring-beans\src\main\java\mytest" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -59,6 +76,41 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanFactoryTests.testBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring.spring-beans.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mytest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mytest" />
+      <option name="MAIN_CLASS_NAME" value="mytest.BeanFactoryTests" />
+      <option name="METHOD_NAME" value="testBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanFactoryTests.testBean" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="spring.spring-beans.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mytest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mytest" />
+      <option name="MAIN_CLASS_NAME" value="mytest.BeanFactoryTests" />
+      <option name="METHOD_NAME" value="testBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,6 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BeanFactoryTests.testBean" />
+        <item itemvalue="JUnit.BeanFactoryTests.testBean" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -99,7 +157,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615187293830</updated>
-      <workItem from="1615187295821" duration="1646000" />
+      <workItem from="1615187295821" duration="9837000" />
+      <workItem from="1615256925946" duration="38459000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1615187879043</created>
@@ -115,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615188300814</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="补充">
+      <created>1615189028892</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615189028892</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +192,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -136,28 +204,106 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
+    <MESSAGE value="补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="367" y="31" key="CommitChangelistDialog2" timestamp="1615188222868">
+    <state x="400" y="94" key="#Notifications" timestamp="1615189074224">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state x="367" y="31" key="CommitChangelistDialog2/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615188222868" />
+    <state x="400" y="94" key="#Notifications/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615189074224" />
+    <state x="262" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615355964525">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="262" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615355964525" />
+    <state x="367" y="31" key="CommitChangelistDialog2" timestamp="1615189027853">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="367" y="31" key="CommitChangelistDialog2/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615189027853" />
+    <state width="490" height="466" key="DebuggerActiveHint" timestamp="1615361090497">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="490" height="466" key="DebuggerActiveHint/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615361090497" />
+    <state x="588" y="134" key="FileChooserDialogImpl" timestamp="1615189966887">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="588" y="134" key="FileChooserDialogImpl/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615189966887" />
+    <state width="1415" height="392" key="GridCell.Tab.0.bottom" timestamp="1615361578007">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="392" key="GridCell.Tab.0.bottom/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615361578007" />
+    <state width="1415" height="392" key="GridCell.Tab.0.center" timestamp="1615361578007">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="392" key="GridCell.Tab.0.center/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615361578007" />
+    <state width="1415" height="392" key="GridCell.Tab.0.left" timestamp="1615361578007">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="392" key="GridCell.Tab.0.left/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615361578007" />
+    <state width="1415" height="392" key="GridCell.Tab.0.right" timestamp="1615361578007">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="392" key="GridCell.Tab.0.right/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615361578007" />
+    <state width="1415" height="392" key="GridCell.Tab.1.bottom" timestamp="1615361578007">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="392" key="GridCell.Tab.1.bottom/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615361578007" />
+    <state width="1415" height="392" key="GridCell.Tab.1.center" timestamp="1615361578007">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="392" key="GridCell.Tab.1.center/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615361578007" />
+    <state width="1415" height="392" key="GridCell.Tab.1.left" timestamp="1615361578007">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="392" key="GridCell.Tab.1.left/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615361578007" />
+    <state width="1415" height="392" key="GridCell.Tab.1.right" timestamp="1615361578007">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="392" key="GridCell.Tab.1.right/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615361578007" />
     <state x="311" y="78" key="SettingsEditor" timestamp="1615187362183">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="311" y="78" key="SettingsEditor/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615187362183" />
-    <state x="400" y="169" key="Vcs.Push.Dialog.v2" timestamp="1615188340671">
+    <state width="498" height="528" key="SwitcherDM" timestamp="1615298076742">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state x="400" y="169" key="Vcs.Push.Dialog.v2/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615188340671" />
+    <state width="498" height="528" key="SwitcherDM/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615298076742" />
+    <state x="400" y="169" key="Vcs.Push.Dialog.v2" timestamp="1615189036515">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="400" y="169" key="Vcs.Push.Dialog.v2/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615189036515" />
+    <state width="736" height="439" key="XDebugger.FullValuePopup" timestamp="1615356072637">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="736" height="439" key="XDebugger.FullValuePopup/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615356072637" />
     <state x="563" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615187402566">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="563" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615187402566" />
-    <state x="496" y="187" width="621" height="490" key="find.popup" timestamp="1615187441808">
+    <state x="496" y="187" width="659" height="490" key="find.popup" timestamp="1615357388240">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state x="496" y="187" width="621" height="490" key="find.popup/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615187441808" />
+    <state x="496" y="187" width="659" height="490" key="find.popup/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615357388240" />
+    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1615356762543">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615356762543" />
+    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/78.0.1458.864@78.0.1458.864" timestamp="1615203411190" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/ClassLoader.java</url>
+          <line>1085</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/ApplicationContextAwareProcessor.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

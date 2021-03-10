@@ -93,11 +93,13 @@ public class DefaultBeanDefinitionDocumentReader implements BeanDefinitionDocume
 	 * (or DTD, historically).
 	 * <p>Opens a DOM Document; then initializes the default settings
 	 * specified at the {@code <beans/>} level; then parses the contained bean definitions.
+	 * 提取root,以便于再次将root作为参数继续BeanDefinition的注册
 	 */
 	public void registerBeanDefinitions(Document doc, XmlReaderContext readerContext) {
 		this.readerContext = readerContext;
 		logger.debug("Loading bean definitions");
 		Element root = doc.getDocumentElement();
+		//核心部分
 		doRegisterBeanDefinitions(root);
 	}
 
@@ -123,8 +125,11 @@ public class DefaultBeanDefinitionDocumentReader implements BeanDefinitionDocume
 
 	/**
 	 * Register each bean definition within the given root {@code <beans/>} element.
+	 * 在给定的<beans/>标签中注册每个bean对象
 	 */
 	protected void doRegisterBeanDefinitions(Element root) {
+		//处理profile 即得到Environment中的profile对比<beans/>标签中的profile
+		// 选择是否解析注册该<beans/>
 		String profileSpec = root.getAttribute(PROFILE_ATTRIBUTE);
 		if (StringUtils.hasText(profileSpec)) {
 			String[] specifiedProfiles = StringUtils.tokenizeToStringArray(
@@ -140,11 +145,15 @@ public class DefaultBeanDefinitionDocumentReader implements BeanDefinitionDocume
 		// the new (child) delegate with a reference to the parent for fallback purposes,
 		// then ultimately reset this.delegate back to its original (parent) reference.
 		// this behavior emulates a stack of delegates without actually necessitating one.
+		// 专门处理解析的委托
 		BeanDefinitionParserDelegate parent = this.delegate;
 		this.delegate = createDelegate(this.readerContext, root, parent);
 
+		//模板方法模式preProcessXml、postProcessXml交给子类实现
 		preProcessXml(root);
+		//核心逻辑 ->
 		parseBeanDefinitions(root, this.delegate);
+
 		postProcessXml(root);
 
 		this.delegate = parent;
@@ -172,24 +181,30 @@ public class DefaultBeanDefinitionDocumentReader implements BeanDefinitionDocume
 	 * Parse the elements at the root level in the document:
 	 * "import", "alias", "bean".
 	 * @param root the DOM root element of the document
+	 * 默认标签包括 {@link #IMPORT_ELEMENT}{@link #ALIAS_ELEMENT}
+	 * {@link #BEAN_ELEMENT}{@link #NESTED_BEANS_ELEMENT}
 	 */
 	protected void parseBeanDefinitions(Element root, BeanDefinitionParserDelegate delegate) {
+		//判断是否为beans标签 然后对其处理
 		if (delegate.isDefaultNamespace(root)) {
 			NodeList nl = root.getChildNodes();
 			for (int i = 0; i < nl.getLength(); i++) {
 				Node node = nl.item(i);
 				if (node instanceof Element) {
 					Element ele = (Element) node;
+					//判断为beans标签下的默认标签并进行处理
 					if (delegate.isDefaultNamespace(ele)) {
 						parseDefaultElement(ele, delegate);
 					}
 					else {
+						//对beans标签下的非默认标签的解析
 						delegate.parseCustomElement(ele);
 					}
 				}
 			}
 		}
 		else {
+			//对非默认标签的解析
 			delegate.parseCustomElement(root);
 		}
 	}

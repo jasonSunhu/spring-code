@@ -100,6 +100,12 @@ public class PluggableSchemaResolver implements EntityResolver {
 		this.schemaMappingsLocation = schemaMappingsLocation;
 	}
 
+	/***
+	 * META-INF/spring.schemas文件中找到systemId所对应的XSD文件
+	 * 本类的构造函数中设置{@link #DEFAULT_SCHEMA_MAPPINGS_LOCATION}
+	 * @author Jshu
+	 * @since 2021/3/10 14:25
+	 */
 	public InputSource resolveEntity(String publicId, String systemId) throws IOException {
 		if (logger.isTraceEnabled()) {
 			logger.trace("Trying to resolve XML entity with public id [" + publicId +
@@ -107,6 +113,7 @@ public class PluggableSchemaResolver implements EntityResolver {
 		}
 
 		if (systemId != null) {
+			//获取xsd文件在项目中的位置
 			String resourceLocation = getSchemaMappings().get(systemId);
 			if (resourceLocation != null) {
 				Resource resource = new ClassPathResource(resourceLocation, this.classLoader);

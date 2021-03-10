@@ -50,6 +50,7 @@ public interface Resource extends InputStreamSource {
 	 * <p>This method performs a definitive existence check, whereas the
 	 * existence of a {@code Resource} handle only guarantees a
 	 * valid descriptor handle.
+	 * 资源是否物理存在
 	 */
 	boolean exists();
 
@@ -61,6 +62,8 @@ public interface Resource extends InputStreamSource {
 	 * However, a value of {@code false} is a definitive indication
 	 * that the resource content cannot be read.
 	 * @see #getInputStream()
+	 * 是否可读取，即调用其getInputStream和getFile方法
+	 * true-在实际读取时不一定成功 false-明确指示了一定不可读取
 	 */
 	boolean isReadable();
 
@@ -69,6 +72,8 @@ public interface Resource extends InputStreamSource {
 	 * stream. If true, the InputStream cannot be read multiple times,
 	 * and must be read and closed to avoid resource leaks.
 	 * <p>Will be {@code false} for typical resource descriptors.
+	 * 返回此资源是否表示带有打开流。如果为true，则不能多次读取InputStream，必须对其进行读取和关闭，以避免资源泄漏
+	 * 默认为false
 	 */
 	boolean isOpen();
 
@@ -120,6 +125,7 @@ public interface Resource extends InputStreamSource {
 	 * part of the path: for example, "myfile.txt".
 	 * <p>Returns {@code null} if this type of resource does not
 	 * have a filename.
+	 * 不带路径信息的文件名
 	 */
 	String getFilename();
 
