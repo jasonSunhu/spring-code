@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <!--lookup-method 获取器注入是一种特殊的方法注入，他把一个方法声明为返回某种类型的bean，但实际要返回的bean是在配置文件中配置的，
+  此方法可用于设计某些具有可插拔的功能上，解除程序依赖-->
+  <bean id="getBeanTest" class="mytest.lookup.GetBeanTest">
+    <lookup-method name="getBean" bean="student"/>
+  </bean>
+
+  <bean id="teacher" class="mytest.lookup.Teacher"/>
+
+  <bean id="student" class="mytest.lookup.Student"/>
+
+</beans>
