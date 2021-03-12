@@ -16,3 +16,4 @@ http\://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframew
 http\://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd
 http\://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd
 http\://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd
+http\://www.sunhu.org/schema/company.xsd=org/springframework/beans/factory/xml/spring-customtag.xsd

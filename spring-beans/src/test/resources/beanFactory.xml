@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.springframework.org/schema/beans
-  http://www.springframework.org/schema/beans/spring-beans.xsd">
+  xmlns:myname="http://www.sunhu.org/schema/company"
+  xsi:schemaLocation="
+  http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.sunhu.org/schema/company http://www.sunhu.org/schema/company.xsd">
 
   <bean id="myTestBean" class="mytest.MyTestBean"/>
+
+  <myname:company id="company" companyName="ccc" address="hhhhhhhh"/>
 
 </beans>
