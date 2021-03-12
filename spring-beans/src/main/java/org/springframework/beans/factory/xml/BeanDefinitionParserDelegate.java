@@ -1524,12 +1524,17 @@ public class BeanDefinitionParserDelegate {
 	}
 
 	public BeanDefinition parseCustomElement(Element ele, BeanDefinition containingBd) {
+		//1. 获取对应的命名空间 org.w3c.dom.Node提供了方法直接使用
 		String namespaceUri = getNamespaceURI(ele);
+		//2. 根据命名空间找到对应的NamespaceHandler
+		// 在readerContext初始化的时候 其属性namespaceHandlerResolver就已经被初始化为了DefaultNamespaceHandlerResolver的实例 ->
 		NamespaceHandler handler = this.readerContext.getNamespaceHandlerResolver().resolve(namespaceUri);
 		if (handler == null) {
 			error("Unable to locate Spring NamespaceHandler for XML schema namespace [" + namespaceUri + "]", ele);
 			return null;
 		}
+		//3. 调用自定义的NamespaceHandler进行解析
+		// 我们自定义的handler并没有实现parse方法，推断此方法为父类实现 见NamespaceHandlerSupport
 		return handler.parse(ele, new ParserContext(this.readerContext, this, containingBd));
 	}
 
