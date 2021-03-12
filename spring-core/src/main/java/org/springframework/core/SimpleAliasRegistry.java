@@ -41,13 +41,22 @@ public class SimpleAliasRegistry implements AliasRegistry {
 	private final Map<String, String> aliasMap = new ConcurrentHashMap<String, String>(16);
 
 
+	/***
+	 * 1. alias与beanName相同情况处理。若alias与beanName并名称相同则不需要处理并删除掉原有alias
+	 * 2. alias覆盖处理。若aliasName已经使用并已经指向了另一beanName则需要用户的设置进行处理
+	 * 3. alias循环检查。当A->B存在，若再次出现A->C->B则会抛出异常
+	 * 4. 注册alias
+	 * @since 2021/3/11 21:30
+	 */
 	public void registerAlias(String name, String alias) {
 		Assert.hasText(name, "'name' must not be empty");
 		Assert.hasText(alias, "'alias' must not be empty");
+		//如果beanName与alias相同的话不记录alias，并删除对应的alias
 		if (alias.equals(name)) {
 			this.aliasMap.remove(alias);
 		}
 		else {
+			//如果alias不允许被覆盖则抛出异常
 			if (!allowAliasOverriding()) {
 				String registeredName = this.aliasMap.get(alias);
 				if (registeredName != null && !registeredName.equals(name)) {
@@ -55,6 +64,7 @@ public class SimpleAliasRegistry implements AliasRegistry {
 							name + "': It is already registered for name '" + registeredName + "'.");
 				}
 			}
+			//当A-B存在时，若再次出现A->C->B时候则会抛出异常
 			checkForAliasCircle(name, alias);
 			this.aliasMap.put(alias, name);
 		}

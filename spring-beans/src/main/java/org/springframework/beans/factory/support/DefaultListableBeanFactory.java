@@ -652,6 +652,8 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 
 		if (beanDefinition instanceof AbstractBeanDefinition) {
 			try {
+				//1. 注册前的最后一次校验，主要是对于AbstractBeanDefinition属性中的methodOverrides校验
+				// 校验其是否与工厂方法并存或者其对应的方法根本不存在
 				((AbstractBeanDefinition) beanDefinition).validate();
 			}
 			catch (BeanDefinitionValidationException ex) {
@@ -662,10 +664,13 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 
 		BeanDefinition oldBeanDefinition;
 
+		// 因为beanDefinitionMap是全局变量，这里定会存在并发访问情况
 		synchronized (this.beanDefinitionMap) {
 			oldBeanDefinition = this.beanDefinitionMap.get(beanName);
+			//2. 处理注册已经注册的beanName的情况
 			if (oldBeanDefinition != null) {
 				if (!this.allowBeanDefinitionOverriding) {
+					// 如果存在以上情况，且配置了不允许被覆盖，则抛出异常
 					throw new BeanDefinitionStoreException(beanDefinition.getResourceDescription(), beanName,
 							"Cannot register bean definition [" + beanDefinition + "] for bean '" + beanName +
 							"': There is already [" + oldBeanDefinition + "] bound.");
@@ -678,13 +683,16 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 				}
 			}
 			else {
+				//记录beanName
 				this.beanDefinitionNames.add(beanName);
 				this.frozenBeanDefinitionNames = null;
 			}
+			//3. 注册BeanDefinition
 			this.beanDefinitionMap.put(beanName, beanDefinition);
 		}
-
+		// containsSingleton？？？
 		if (oldBeanDefinition != null || containsSingleton(beanName)) {
+			//清除解析之前留下的对应的beanName的缓存
 			resetBeanDefinition(beanName);
 		}
 	}
