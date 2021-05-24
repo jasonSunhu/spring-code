@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3c78978-5b8c-4ccb-a72d-e4703de09e27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/test/java/test/mytest/jdkproxy/MyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/test/java/test/mytest/jdkproxy/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/test/java/test/mytest/jdkproxy/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractXmlApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AbstractAspectJAdvisorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AbstractAspectJAdvisorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/config/AopConfigUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/config/AopConfigUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/config/AopNamespaceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/config/AopNamespaceUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/config/AspectJAutoProxyBeanDefinitionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/config/AspectJAutoProxyBeanDefinitionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/JdkDynamicAopProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/JdkDynamicAopProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ProxyCreatorSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ProxyCreatorSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ReflectiveMethodInvocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ReflectiveMethodInvocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/support/AopUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/support/AopUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +43,39 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-aspects" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-aspects" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-aspects" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-aspects" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-aspects" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -43,6 +86,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -72,6 +116,9 @@
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="test.mytest.jdkproxy" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="mytest.replaced" />
       <recent name="mytest.lookup" />
@@ -84,7 +131,7 @@
       <recent name="C:\Users\jason\Documents\code\spring-code\spring-beans\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApplicationContextTests">
+  <component name="RunManager" selected="Application.MyInvocationHandler">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -106,25 +153,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="MyInvocationHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.mytest.jdkproxy.MyInvocationHandler" />
+      <module name="spring.spring-aop.test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.mytest.jdkproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanFactoryTests.testBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring.spring-beans.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mytest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mytest" />
-      <option name="MAIN_CLASS_NAME" value="mytest.BeanFactoryTests" />
-      <option name="METHOD_NAME" value="testBean" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,6 +269,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.ApplicationContextTests" />
+      <item itemvalue="Application.MyInvocationHandler" />
       <item itemvalue="JUnit.BeanFactoryTests.testBean" />
       <item itemvalue="JUnit.LookupTests.test" />
       <item itemvalue="JUnit.ReplacedTests.test" />
@@ -232,11 +277,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyInvocationHandler" />
         <item itemvalue="Application.ApplicationContextTests" />
         <item itemvalue="JUnit.CustomTagTests.testBean" />
         <item itemvalue="JUnit.ReplacedTests.test" />
         <item itemvalue="JUnit.LookupTests.test" />
-        <item itemvalue="JUnit.BeanFactoryTests.testBean" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +303,10 @@
       <workItem from="1615978854248" duration="7482000" />
       <workItem from="1615990785165" duration="622000" />
       <workItem from="1616503189339" duration="29074000" />
-      <workItem from="1620649391187" duration="5725000" />
+      <workItem from="1620649391187" duration="7057000" />
+      <workItem from="1620738771319" duration="4042000" />
+      <workItem from="1620821686401" duration="7918000" />
+      <workItem from="1621835759382" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1615187879043</created>
@@ -337,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616659176360</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="容器的功能拓展">
+      <created>1620656725229</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620656725230</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +424,9 @@
     <MESSAGE value="自定义标签demo" />
     <MESSAGE value="自定义标签解析注释" />
     <MESSAGE value="bean的加载注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="bean的加载注释" />
+    <MESSAGE value="容器的功能拓展" />
+    <MESSAGE value="jdk动态代理demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdk动态代理demo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="94" key="#Notifications" timestamp="1615189074224">
@@ -380,22 +437,29 @@
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="262" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615355964525" />
-    <state x="613" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1616659670517">
+    <state x="613" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1620827616981">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="613" y="141" key="#com.intellij.ide.util.MemberChooser/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616659670517" />
-    <state x="359" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615515262762">
+    <state x="613" y="141" key="#com.intellij.ide.util.MemberChooser/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620827616981" />
+    <state x="382" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1620828266597">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="382" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620828266597" />
+    <state x="359" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1620827954394">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="359" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615515262762" />
+    <state x="359" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620827954394" />
     <state x="540" y="141" key="#xdebugger.evaluate" timestamp="1615905139280">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="540" y="141" key="#xdebugger.evaluate/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1615905139280" />
-    <state x="367" y="31" key="CommitChangelistDialog2" timestamp="1616659175332">
+    <state x="367" y="31" key="CommitChangelistDialog2" timestamp="1621836008771">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state x="367" y="31" key="CommitChangelistDialog2/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616659175332" />
+    <state x="367" y="31" key="CommitChangelistDialog2/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621836008771" />
+    <state x="367" y="31" key="CommitChangelistDialog2/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620656723642" />
     <state width="580" height="466" key="DebuggerActiveHint" timestamp="1615905197540">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
@@ -409,53 +473,53 @@
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="588" y="134" key="FileChooserDialogImpl/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615189966887" />
-    <state width="1415" height="209" key="GridCell.Tab.0.bottom" timestamp="1616677875870">
+    <state width="1415" height="209" key="GridCell.Tab.0.bottom" timestamp="1620829620229">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state width="1415" height="297" key="GridCell.Tab.0.bottom/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
-    <state width="1415" height="209" key="GridCell.Tab.0.bottom/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1616677875870" />
+    <state width="1415" height="209" key="GridCell.Tab.0.bottom/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.0.bottom/78.0.1458.864@78.0.1458.864" timestamp="1615599596176" />
-    <state width="1415" height="209" key="GridCell.Tab.0.center" timestamp="1616677875870">
+    <state width="1415" height="209" key="GridCell.Tab.0.center" timestamp="1620829620229">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state width="1415" height="297" key="GridCell.Tab.0.center/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
-    <state width="1415" height="209" key="GridCell.Tab.0.center/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1616677875870" />
+    <state width="1415" height="209" key="GridCell.Tab.0.center/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.0.center/78.0.1458.864@78.0.1458.864" timestamp="1615599596175" />
-    <state width="1415" height="209" key="GridCell.Tab.0.left" timestamp="1616677875870">
+    <state width="1415" height="209" key="GridCell.Tab.0.left" timestamp="1620829620229">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state width="1415" height="297" key="GridCell.Tab.0.left/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469489" />
-    <state width="1415" height="209" key="GridCell.Tab.0.left/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1616677875870" />
+    <state width="1415" height="209" key="GridCell.Tab.0.left/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.0.left/78.0.1458.864@78.0.1458.864" timestamp="1615599596174" />
-    <state width="1415" height="209" key="GridCell.Tab.0.right" timestamp="1616677875870">
+    <state width="1415" height="209" key="GridCell.Tab.0.right" timestamp="1620829620229">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state width="1415" height="297" key="GridCell.Tab.0.right/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
-    <state width="1415" height="209" key="GridCell.Tab.0.right/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1616677875870" />
+    <state width="1415" height="209" key="GridCell.Tab.0.right/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.0.right/78.0.1458.864@78.0.1458.864" timestamp="1615599596175" />
-    <state width="1415" height="209" key="GridCell.Tab.1.bottom" timestamp="1616677875871">
+    <state width="1415" height="209" key="GridCell.Tab.1.bottom" timestamp="1620829620229">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state width="1415" height="297" key="GridCell.Tab.1.bottom/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
-    <state width="1415" height="209" key="GridCell.Tab.1.bottom/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1616677875871" />
+    <state width="1415" height="209" key="GridCell.Tab.1.bottom/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.1.bottom/78.0.1458.864@78.0.1458.864" timestamp="1615599596177" />
-    <state width="1415" height="209" key="GridCell.Tab.1.center" timestamp="1616677875871">
+    <state width="1415" height="209" key="GridCell.Tab.1.center" timestamp="1620829620229">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state width="1415" height="297" key="GridCell.Tab.1.center/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
-    <state width="1415" height="209" key="GridCell.Tab.1.center/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1616677875871" />
+    <state width="1415" height="209" key="GridCell.Tab.1.center/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.1.center/78.0.1458.864@78.0.1458.864" timestamp="1615599596176" />
-    <state width="1415" height="209" key="GridCell.Tab.1.left" timestamp="1616677875871">
+    <state width="1415" height="209" key="GridCell.Tab.1.left" timestamp="1620829620229">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state width="1415" height="297" key="GridCell.Tab.1.left/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
-    <state width="1415" height="209" key="GridCell.Tab.1.left/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1616677875871" />
+    <state width="1415" height="209" key="GridCell.Tab.1.left/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.1.left/78.0.1458.864@78.0.1458.864" timestamp="1615599596176" />
-    <state width="1415" height="209" key="GridCell.Tab.1.right" timestamp="1616677875871">
+    <state width="1415" height="209" key="GridCell.Tab.1.right" timestamp="1620829620229">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state width="1415" height="297" key="GridCell.Tab.1.right/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
-    <state width="1415" height="209" key="GridCell.Tab.1.right/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1616677875871" />
+    <state width="1415" height="209" key="GridCell.Tab.1.right/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.1.right/78.0.1458.864@78.0.1458.864" timestamp="1615599596176" />
     <state x="311" y="21" key="SettingsEditor" timestamp="1616660067449">
       <screen x="78" y="0" width="1458" height="864" />
@@ -481,15 +545,16 @@
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="563" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615187402566" />
-    <state x="496" y="187" width="766" height="490" key="find.popup" timestamp="1616661589245">
+    <state x="496" y="187" width="903" height="490" key="find.popup" timestamp="1620828214753">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="496" y="187" width="766" height="490" key="find.popup/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616661589245" />
-    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1620656565304">
+    <state x="496" y="187" width="903" height="490" key="find.popup/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620828214753" />
+    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1620824011051">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616663464058" />
-    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620656565304" />
+    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620824011051" />
     <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/78.0.1458.864@78.0.1458.864" timestamp="1615468874239" />
   </component>
 </project>
