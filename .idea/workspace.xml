@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3c78978-5b8c-4ccb-a72d-e4703de09e27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/test/java/test/mytest/jdkproxy/MyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/test/java/test/mytest/jdkproxy/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/test/java/test/mytest/jdkproxy/UserServiceImpl.java" afterDir="false" />
+    <list default="true" id="a3c78978-5b8c-4ccb-a72d-e4703de09e27" name="Default Changelist" comment="AOP-cglib代理demo">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AbstractAspectJAdvisorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AbstractAspectJAdvisorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/config/AopConfigUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/config/AopConfigUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/config/AopNamespaceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/config/AopNamespaceUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/config/AspectJAutoProxyBeanDefinitionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/config/AspectJAutoProxyBeanDefinitionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/JdkDynamicAopProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/JdkDynamicAopProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ProxyCreatorSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ProxyCreatorSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ReflectiveMethodInvocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ReflectiveMethodInvocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/support/AopUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/support/AopUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/CglibAopProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/CglibAopProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +95,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -131,7 +114,7 @@
       <recent name="C:\Users\jason\Documents\code\spring-code\spring-beans\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyInvocationHandler">
+  <component name="RunManager" selected="Application.EnhancerDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -146,6 +129,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mytest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnhancerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.mytest.jdkproxy.cjlib.EnhancerDemo" />
+      <module name="spring.spring-aop.test" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.mytest.jdkproxy.cjlib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,24 +170,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanFactoryTests.testBean" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="spring.spring-beans.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mytest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mytest" />
-      <option name="MAIN_CLASS_NAME" value="mytest.BeanFactoryTests" />
-      <option name="METHOD_NAME" value="testBean" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CustomTagTests.testBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring.spring-beans.test" />
       <extension name="coverage">
@@ -202,23 +181,6 @@
       <option name="PACKAGE_NAME" value="mytest" />
       <option name="MAIN_CLASS_NAME" value="mytest.CustomTagTests" />
       <option name="METHOD_NAME" value="testBean" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LookupTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring.spring-beans.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mytest.lookup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mytest.lookup" />
-      <option name="MAIN_CLASS_NAME" value="mytest.lookup.LookupTests" />
-      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -270,18 +232,17 @@
     <list>
       <item itemvalue="Application.ApplicationContextTests" />
       <item itemvalue="Application.MyInvocationHandler" />
-      <item itemvalue="JUnit.BeanFactoryTests.testBean" />
-      <item itemvalue="JUnit.LookupTests.test" />
+      <item itemvalue="Application.EnhancerDemo" />
       <item itemvalue="JUnit.ReplacedTests.test" />
       <item itemvalue="JUnit.CustomTagTests.testBean" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnhancerDemo" />
         <item itemvalue="Application.MyInvocationHandler" />
         <item itemvalue="Application.ApplicationContextTests" />
         <item itemvalue="JUnit.CustomTagTests.testBean" />
         <item itemvalue="JUnit.ReplacedTests.test" />
-        <item itemvalue="JUnit.LookupTests.test" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +267,7 @@
       <workItem from="1620649391187" duration="7057000" />
       <workItem from="1620738771319" duration="4042000" />
       <workItem from="1620821686401" duration="7918000" />
-      <workItem from="1621835759382" duration="249000" />
+      <workItem from="1621835759382" duration="5145000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1615187879043</created>
@@ -392,7 +353,35 @@
       <option name="project" value="LOCAL" />
       <updated>1620656725230</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="jdk动态代理demo">
+      <created>1621836012049</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1621836012049</updated>
+    </task>
+    <task id="LOCAL-00014" summary="AOP-jdk动态代理">
+      <created>1621836062324</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621836062324</updated>
+    </task>
+    <task id="LOCAL-00015" summary="配置VM_OPTIONS 防止编译时控制台输出中文乱码报错-Dfile.encoding=UTF-8">
+      <created>1621837594770</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621837594770</updated>
+    </task>
+    <task id="LOCAL-00016" summary="AOP-cglib代理demo">
+      <created>1621839958563</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1621839958563</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,21 +415,24 @@
     <MESSAGE value="bean的加载注释" />
     <MESSAGE value="容器的功能拓展" />
     <MESSAGE value="jdk动态代理demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdk动态代理demo" />
+    <MESSAGE value="AOP-jdk动态代理" />
+    <MESSAGE value="配置VM_OPTIONS 防止编译时控制台输出中文乱码报错-Dfile.encoding=UTF-8" />
+    <MESSAGE value="AOP-cglib代理demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="AOP-cglib代理demo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="94" key="#Notifications" timestamp="1615189074224">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="400" y="94" key="#Notifications/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615189074224" />
-    <state x="262" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615355964525">
+    <state x="262" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621837676081">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state x="262" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615355964525" />
-    <state x="613" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1620827616981">
+    <state x="262" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621837676081" />
+    <state x="613" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1621836279487">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state x="613" y="141" key="#com.intellij.ide.util.MemberChooser/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616659670517" />
+    <state x="613" y="141" key="#com.intellij.ide.util.MemberChooser/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621836279487" />
     <state x="613" y="141" key="#com.intellij.ide.util.MemberChooser/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620827616981" />
     <state x="382" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1620828266597">
       <screen x="78" y="0" width="1458" height="864" />
@@ -455,76 +447,81 @@
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="540" y="141" key="#xdebugger.evaluate/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1615905139280" />
-    <state x="367" y="31" key="CommitChangelistDialog2" timestamp="1621836008771">
+    <state x="367" y="31" key="CommitChangelistDialog2" timestamp="1621839975490">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state x="367" y="31" key="CommitChangelistDialog2/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621836008771" />
+    <state x="367" y="31" key="CommitChangelistDialog2/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621839975490" />
     <state x="367" y="31" key="CommitChangelistDialog2/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620656723642" />
     <state width="580" height="466" key="DebuggerActiveHint" timestamp="1615905197540">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state width="490" height="466" key="DebuggerActiveHint/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615518153109" />
     <state width="580" height="466" key="DebuggerActiveHint/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1615905197540" />
-    <state x="171" y="93" width="1272" height="678" key="DiffContextDialog" timestamp="1616504963629">
+    <state x="171" y="93" width="1272" height="678" key="DiffContextDialog" timestamp="1621837790554">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
+    <state x="171" y="93" width="1272" height="678" key="DiffContextDialog/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621837790554" />
     <state x="171" y="93" width="1272" height="678" key="DiffContextDialog/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1616504963629" />
     <state x="588" y="134" key="FileChooserDialogImpl" timestamp="1615189966887">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="588" y="134" key="FileChooserDialogImpl/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615189966887" />
-    <state width="1415" height="209" key="GridCell.Tab.0.bottom" timestamp="1620829620229">
+    <state width="1415" height="209" key="GridCell.Tab.0.bottom" timestamp="1621838556832">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state width="1415" height="297" key="GridCell.Tab.0.bottom/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
+    <state width="1415" height="209" key="GridCell.Tab.0.bottom/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621838556832" />
     <state width="1415" height="209" key="GridCell.Tab.0.bottom/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.0.bottom/78.0.1458.864@78.0.1458.864" timestamp="1615599596176" />
-    <state width="1415" height="209" key="GridCell.Tab.0.center" timestamp="1620829620229">
+    <state width="1415" height="209" key="GridCell.Tab.0.center" timestamp="1621838556831">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state width="1415" height="297" key="GridCell.Tab.0.center/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
+    <state width="1415" height="209" key="GridCell.Tab.0.center/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621838556831" />
     <state width="1415" height="209" key="GridCell.Tab.0.center/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.0.center/78.0.1458.864@78.0.1458.864" timestamp="1615599596175" />
-    <state width="1415" height="209" key="GridCell.Tab.0.left" timestamp="1620829620229">
+    <state width="1415" height="209" key="GridCell.Tab.0.left" timestamp="1621838556831">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state width="1415" height="297" key="GridCell.Tab.0.left/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469489" />
+    <state width="1415" height="209" key="GridCell.Tab.0.left/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621838556831" />
     <state width="1415" height="209" key="GridCell.Tab.0.left/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.0.left/78.0.1458.864@78.0.1458.864" timestamp="1615599596174" />
-    <state width="1415" height="209" key="GridCell.Tab.0.right" timestamp="1620829620229">
+    <state width="1415" height="209" key="GridCell.Tab.0.right" timestamp="1621838556831">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state width="1415" height="297" key="GridCell.Tab.0.right/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
+    <state width="1415" height="209" key="GridCell.Tab.0.right/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621838556831" />
     <state width="1415" height="209" key="GridCell.Tab.0.right/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.0.right/78.0.1458.864@78.0.1458.864" timestamp="1615599596175" />
-    <state width="1415" height="209" key="GridCell.Tab.1.bottom" timestamp="1620829620229">
+    <state width="1415" height="209" key="GridCell.Tab.1.bottom" timestamp="1621838556832">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state width="1415" height="297" key="GridCell.Tab.1.bottom/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
+    <state width="1415" height="209" key="GridCell.Tab.1.bottom/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621838556832" />
     <state width="1415" height="209" key="GridCell.Tab.1.bottom/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.1.bottom/78.0.1458.864@78.0.1458.864" timestamp="1615599596177" />
-    <state width="1415" height="209" key="GridCell.Tab.1.center" timestamp="1620829620229">
+    <state width="1415" height="209" key="GridCell.Tab.1.center" timestamp="1621838556832">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state width="1415" height="297" key="GridCell.Tab.1.center/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
+    <state width="1415" height="209" key="GridCell.Tab.1.center/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621838556832" />
     <state width="1415" height="209" key="GridCell.Tab.1.center/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.1.center/78.0.1458.864@78.0.1458.864" timestamp="1615599596176" />
-    <state width="1415" height="209" key="GridCell.Tab.1.left" timestamp="1620829620229">
+    <state width="1415" height="209" key="GridCell.Tab.1.left" timestamp="1621838556832">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state width="1415" height="297" key="GridCell.Tab.1.left/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
+    <state width="1415" height="209" key="GridCell.Tab.1.left/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621838556832" />
     <state width="1415" height="209" key="GridCell.Tab.1.left/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.1.left/78.0.1458.864@78.0.1458.864" timestamp="1615599596176" />
-    <state width="1415" height="209" key="GridCell.Tab.1.right" timestamp="1620829620229">
+    <state width="1415" height="209" key="GridCell.Tab.1.right" timestamp="1621838556832">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state width="1415" height="297" key="GridCell.Tab.1.right/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616667469490" />
+    <state width="1415" height="209" key="GridCell.Tab.1.right/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621838556832" />
     <state width="1415" height="209" key="GridCell.Tab.1.right/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620829620229" />
     <state width="1415" height="401" key="GridCell.Tab.1.right/78.0.1458.864@78.0.1458.864" timestamp="1615599596176" />
-    <state x="311" y="21" key="SettingsEditor" timestamp="1616660067449">
+    <state x="467" y="146" key="RollbackChangesDialog" timestamp="1621837617268">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state x="311" y="21" key="SettingsEditor/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616660067449" />
+    <state x="467" y="146" key="RollbackChangesDialog/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621837617268" />
+    <state x="311" y="21" key="SettingsEditor" timestamp="1621837738428">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="311" y="21" key="SettingsEditor/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621837738428" />
     <state width="498" height="561" key="SwitcherDM" timestamp="1615517385792">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
@@ -541,19 +538,23 @@
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="604" y="213" key="chooseDestDirectoryDialog/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616659625991" />
+    <state x="404" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621837566796">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="404" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621837566796" />
     <state x="563" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615187402566">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="563" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1615187402566" />
-    <state x="496" y="187" width="903" height="490" key="find.popup" timestamp="1620828214753">
+    <state x="496" y="187" width="766" height="490" key="find.popup" timestamp="1621837021077">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state x="496" y="187" width="766" height="490" key="find.popup/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616661589245" />
+    <state x="496" y="187" width="766" height="490" key="find.popup/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621837021077" />
     <state x="496" y="187" width="903" height="490" key="find.popup/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620828214753" />
-    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1620824011051">
+    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1621840772843">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1616663464058" />
+    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/1920.0.1536.824@78.0.1458.864" timestamp="1621840772843" />
     <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/1920.0.1920.1040@78.0.1458.864" timestamp="1620824011051" />
     <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/78.0.1458.864@78.0.1458.864" timestamp="1615468874239" />
   </component>
